@@ -4,17 +4,17 @@
 This project aims to use bioinformatic tools to identify genes of SE Alaskan Tanner crabs (_Chionoecetes bairdi_) that are involved in immunity and temperature stress response. 
 
 ## Repository structure and Contents
-[data]
-- data from the _C. bairdi_ pooled RNA sample that was library-prepped and sequenced at the NWGC
-
 [analyses]
 - output files from R and Jupyter
 
-[scripts]
-- R scripts used for analyses
+[data]
+- data from the _C. bairdi_ pooled RNA sample that was library-prepped and sequenced at the NWGC
 
 [notebooks]
 - Jupyter/Python notebooks used for analyses
+
+[scripts]
+- R scripts used for analyses
 
 ## Project Timeline (FISH 546 Fall Quarter 2018)
 - Week 4: 
