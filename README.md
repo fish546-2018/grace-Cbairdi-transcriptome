@@ -5,7 +5,7 @@ This project aims to use bioinformatic tools to identify genes of SE Alaskan Tan
 
 ## Repository structure and Contents
 [data]
-- raw data from NWGC sequencing facility
+- data from the _C. bairdi_ pooled RNA sample that was library-prepped and sequenced at the NWGC
 
 [analyses]
 - output files from R and Jupyter
