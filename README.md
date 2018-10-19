@@ -8,7 +8,7 @@ This project aims to use bioinformatic tools to identify genes of SE Alaskan Tan
 - output files from R and Jupyter
 
 [data]
-- data from the _C. bairdi_ pooled RNA sample that was library-prepped and sequenced at the NWGC
+- Fastq files from the _C. bairdi_ pooled RNA sample that was library-prepped and sequenced at the NWGC. 
 
 [notebooks]
 - Jupyter/Python notebooks used for analyses
@@ -17,5 +17,5 @@ This project aims to use bioinformatic tools to identify genes of SE Alaskan Tan
 - R scripts used for analyses
 
 ## Project Timeline (FISH 546 Fall Quarter 2018)
-- Week 4: 
-- Week 5: 
+- Week 4: Quality trim sequences and assemble
+- Week 5: Annotate using BLAST, and classify according to biological function using GO terms and GO Slim terms 
