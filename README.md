@@ -14,7 +14,7 @@ This project aims to use bioinformatic tools to identify genes of SE Alaskan Tan
 - Jupyter/Python notebooks used for analyses
 
 [scripts](https://github.com/fish546-2018/grace-Cbairdi-transcriptome/tree/master/scripts)
-- R scripts used for analyses
+- R scripts used for analyses, and .sh scripts for running jobs on Mox
 
 ## Project Timeline (FISH 546 Fall Quarter 2018)
 - Week 4: Quality trim sequences and assemble
