@@ -17,5 +17,5 @@ This project aims to use bioinformatic tools to identify genes of SE Alaskan Tan
 - R scripts used for analyses, and .sh scripts for running jobs on Mox
 
 ## Project Timeline (FISH 546 Fall Quarter 2018)
-- Week 4: FastQC files and assemble using Trinity on Mox
-- Week 5: Annotate using BLAST, and classify according to biological function using GO terms and GO Slim terms 
+- Week 4: FastQC files and assemble using Trinity on Mox; set up script for running BLAST once assembly is complete
+- Week 5: Run BLAST, and classify according to biological function using GO terms and GO Slim terms 
