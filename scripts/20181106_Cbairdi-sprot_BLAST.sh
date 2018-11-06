@@ -25,7 +25,7 @@ module load intel-python3_2017
 /gscratch/srlab/programs/ncbi-blast-2.6.0+ \
 --blastn \
 --query /gscratch/srlab/graceac9/query/library01/query.fa \
---db /gscratch/srlab/graceac9/blastdb/uniprot_sprot/blastdb/*uniprot_sprot \
+--db /gscratch/srlab/graceac9/blastdb/uniprot_sprot/blastdb/uniprot_sprot \
 --max_target_seqs 1 \
 --outfmt 6 \
 --num_threads 28 \
