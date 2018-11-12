@@ -1,0 +1,2 @@
+assembly,n_seqs,smallest,largest,n_bases,mean_len,n_under_200,n_over_1k,n_over_10k,n_with_orf,mean_orf_percent,n90,n70,n50,n30,n10,gc,bases_n,proportion_n,score,optimal_score,cutoff,weighted
+/Users/graciecrandall/Documents/GitHub/grace-Cbairdi-transcriptome/analyses/trinity/11012018-Cbairdi-assembly.fasta,143172,182,13616,144678598,1010.48384,29,49933,14,52176,58.1057,407,1033,1696,2431,3801,0.46435,0,0.0,NA,NA,NA,NA
