@@ -1,6 +1,6 @@
 install.packages("plotly")
 
-Blastq <- read.csv("analyses/Blastquery-GOslim.sorted")
+blastq <- read.delim("analyses/Blastquery-GOslim.sorted", header = FALSE, sep = "\t")
 
-#how to separate into two columns...
+
 
