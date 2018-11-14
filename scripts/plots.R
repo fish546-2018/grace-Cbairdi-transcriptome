@@ -5,6 +5,7 @@ library(plotly)
 
 blastq <- read.delim("analyses/Blastquery-GOslim.sorted", header = FALSE, sep = "\t")
 
+write.csv(blastq, "Blastquery-GOslim-sep.csv")
   
 ggplot(blastq, aes(x = factor(1), fill=blastq$V2))+geom_bar(width = 1)+coord_polar("y")
 
