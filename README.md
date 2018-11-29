@@ -1,8 +1,8 @@
 ### grace-Cbairdi-transcriptome
 
-# Effects of temperature and _Hematodinium sp._ - infection (Bitter Crab Disease) on Southeast Alaskan Tanner Crabs (_Chionoecetes bairdi_)
+# Effects of temperature and _Hematodinium sp._ - infection (Bitter Crab Syndrome) on Southeast Alaskan Tanner Crabs (_Chionoecetes bairdi_)
 
-## The problem
+# The problem
 SE Alaskan Tanner crabs support a $21 million fishery (2014). However, their marketability has been decreasing due to an increasing prevalence of parasitic dinoflaggelate _Hematodinium sp._-infection (Bitter Crab Syndrome). While it is unknown whether this syndrome results in fatality or how it is transmitted, it is known that it causes the crabs' meat to become bitter in taste and chalky in texture. The prevalence of the disease is likely to increase as the water temperature i
 
 ## Goals
