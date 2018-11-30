@@ -6,7 +6,7 @@ colnames(tax)
 #[1] "V1" "V2" "V3" "V4" "V5" "V6" "V7" "V8"
 
 #need to add descriptive col names (don't know what columns 2-5 are... but I'm focusing on common name for my visual)
-colnms <- c("Trinity_protein", "V2", "V3","V4","V5", "genus_speces","common_name", "Domain")
+colnms <- c("Trinity_protein", "V2", "V3","V4","V5", "genus_species","common_name", "Domain")
 colnames(tax) <- colnms
 
 #I wish taxa output included phyla
