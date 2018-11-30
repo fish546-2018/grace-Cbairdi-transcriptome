@@ -29,7 +29,7 @@ This pie chart was made in [excel](http://owl.fish.washington.edu/scaphapoda/gra
 This pie chart was made using the [output](http://gannet.fish.washington.edu/seashell/bu-mox/analyses/1114b/cg-trinity-nt.tab) from the BLAST of the assembled crab transcriptome with a ```nt``` database that includes taxonomy data. The "crab-related" proportion was found by using ```grep("crab", tax$common_name)``` in the column with the animal common names. The "Hematodinium sp." proportion was found in the same way. The "other" category lumps all the other taxonomy groups, since we are interested in the composition of _Hematodinium sp._ and crab-related proteins. (Made using this script: [taxa_breakdown.R](https://github.com/fish546-2018/grace-Cbairdi-transcriptome/blob/master/scripts/taxa_breakdown.R)). 
 
 ### Figure 3. WORD CLOUD
-
+![img](https://github.com/fish546-2018/grace-Cbairdi-transcriptome/blob/master/analyses/taxa-wordcloud.png)
 
 ### Table 1. Trinity Assembly Output
 Number of Contigs: 143,172                Average contig length: 873.95	
