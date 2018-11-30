@@ -23,6 +23,9 @@ The sequence reads were assmebled into a transcriptome using Trinity. The assemb
 
 This pie chart was made in [excel](http://owl.fish.washington.edu/scaphapoda/grace/Blastquery-GOslim-sep.xlsx) based on the number of proteins counted for each GOslim category with this file: [Blastquery-GOslim-sep.csv](https://github.com/fish546-2018/grace-Cbairdi-transcriptome/blob/master/analyses/Blastquery-GOslim-sep.csv), which is the output file with columns tab delimited [using R](https://github.com/fish546-2018/grace-Cbairdi-transcriptome/blob/master/scripts/plots.R) from this python notebook: [11052018-C_bairdi-blastn.ipynb](https://github.com/fish546-2018/grace-Cbairdi-transcriptome/blob/master/notebooks/11052018-C_bairdi-blastn.ipynb).
 
+### Pie chart of Library 01 Taxa proportions
+![img](https://github.com/fish546-2018/grace-Cbairdi-transcriptome/blob/master/analyses/Taxa-prop.png)
+
 # Next Steps
 - Create RNAseq libraries that are specific to infection-status and temperature regime
 - Assemble and analyze transcriptomes to identify crab response genes
