@@ -30,7 +30,10 @@ length(grep("Hematodinium", tax$common_name))
 uprot <- unique(tax$Trinity_protein)
 uprot
 #2564 unique proteins 
+
+#number of proteins that are from other taxa (not "crab"-related or "Hematodinium")
 2564-(77+509)
+#1978
 
 #make pie chart with percent of crab-related proteins and Hemat-related proteins, and "other"
 #make dataframe for the crab-related, hematodinium-sp related, and other
