@@ -19,8 +19,15 @@ numberofcnames
 #491 total unique common names
 
 #find how many of the common names include "crab"
-
+length(grep("crab", tax$common_name))
+#509 common names that include "crab". Therefore, 509 of total proteins are from crab species
 
 #find number of common names with "Hematodinium"
+length(grep("Hematodinium", tax$common_name))
+#77 common names that contain "Hematodinium. Therefore, 77 of total proteins are from Hematodinium sp. 
 
+#find number of unique proteins
+uprot <- unique(tax$Trinity_protein)
+uprot
+#2564 unique proteins 
 
