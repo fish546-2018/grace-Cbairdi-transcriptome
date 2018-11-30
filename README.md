@@ -33,6 +33,8 @@ Working on creating this now... script [taxa-crab-breakdown.R](https://github.co
 ### Figure 4. WORD CLOUD
 ![img](https://github.com/fish546-2018/grace-Cbairdi-transcriptome/blob/master/analyses/taxa-wordcloud.png)
 
+Add comments
+
 ### Table 1. Trinity Assembly Output
 | Trinity           | Assembly | Summary               | Stats    |
 |:------------------|:---------|:----------------------|:---------|
@@ -40,6 +42,7 @@ Working on creating this now... script [taxa-crab-breakdown.R](https://github.co
 | Contig N50:       | 1539     | Assembled bases:      | 69687682 |
 
 Made using [Cbairdi_01_transrate.ipynb](https://github.com/fish546-2018/grace-Cbairdi-transcriptome/blob/master/notebooks/Cbairdi_01_transrate.ipynb)
+Add explanation of summary data
 
 
 
