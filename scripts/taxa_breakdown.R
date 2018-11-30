@@ -5,7 +5,22 @@ tax <- read.table("http://gannet.fish.washington.edu/seashell/bu-mox/analyses/11
 colnames(tax)
 #[1] "V1" "V2" "V3" "V4" "V5" "V6" "V7" "V8"
 
-#need to add descriptive col names (don't know what columns 2-5 are... but I'm focusing on species and domain for my visuals)
+#need to add descriptive col names (don't know what columns 2-5 are... but I'm focusing on common name for my visual)
 colnms <- c("Trinity_protein", "V2", "V3","V4","V5", "genus_speces","common_name", "Domain")
 colnames(tax) <- colnms
+
+#I wish taxa output included phyla
+#pull out all crab common names and Hemat common names, everything else is "other"... make pie chart.
+
+#find how many unique common names there are
+commonnames <- unique(tax$common_name)
+numberofcnames <- length(commonnames)
+numberofcnames
+#491 total unique common names
+
+#find how many of the common names include "crab"
+
+
+#find number of common names with "Hematodinium"
+
 
