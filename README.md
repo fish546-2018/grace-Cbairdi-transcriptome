@@ -34,10 +34,12 @@ Working on creating this now... script [taxa-crab-breakdown.R](https://github.co
 ![img](https://github.com/fish546-2018/grace-Cbairdi-transcriptome/blob/master/analyses/taxa-wordcloud.png)
 
 ### Table 1. Trinity Assembly Output
-Number of Contigs: 143,172                Average contig length: 873.95	
-Contig N50: 1539                          Assembled bases: 69687682
+| Trinity           | Assembly | Summary               | Stats    |
+|:------------------|:---------|:----------------------|:---------|
+| Number of Contigs:| 143,172  | Average contig length:| 873.95	  |
+| Contig N50:       | 1539     | Assembled bases:      | 69687682 |
 
-Made using []()
+Made using [Cbairdi_01_transrate.ipynb](https://github.com/fish546-2018/grace-Cbairdi-transcriptome/blob/master/notebooks/Cbairdi_01_transrate.ipynb)
 
 
 
