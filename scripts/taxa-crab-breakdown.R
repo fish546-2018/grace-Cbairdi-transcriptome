@@ -25,6 +25,8 @@ ucom <- unique(gsc$common_name)
 #find number of common names including crab
 crab <- length(grep("crab", gsc$common_name))
 #509 proteins of common names that include "crab"
+chiono <- length(grep("Chionoecetes", gsc$common_name))
+#40 species have "Chionoecetes" as a common name
 
 #find out how many of species names include "Chionoecetes"
 Chion <- length(grep("Chionoecetes", gsc$genus_species))

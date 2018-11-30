@@ -22,6 +22,12 @@ numberofcnames
 length(grep("crab", tax$common_name))
 #509 common names that include "crab". Therefore, 509 of total proteins are from crab species
 
+#I noticed that when I searched "Chionoecetes", those species did not have common names that included the word "crab". 
+chiono <- length(grep("Chionoecetes", tax$common_name))
+#40 species have "Chionoecetes" as a common name
+
+#549 proteins come from crabs!! (potentially more if other crab species don't have a common name with "crab" in it associated with the species...)
+
 #find number of common names with "Hematodinium"
 length(grep("Hematodinium", tax$common_name))
 #77 common names that contain "Hematodinium. Therefore, 77 of total proteins are from Hematodinium sp. 
@@ -32,13 +38,13 @@ uprot
 #2564 unique proteins 
 
 #number of proteins that are from other taxa (not "crab"-related or "Hematodinium")
-2564-(77+509)
+2564-(77+549)
 #1978
 
 #make pie chart with percent of crab-related proteins and Hemat-related proteins, and "other"
 #make dataframe for the crab-related, hematodinium-sp related, and other
 dataframe <- data.frame(2564)
-dataframe <- rep( c("crab-related", "Hematodinium-sp", "other"), c(509, 77, 1978))
+dataframe <- rep( c("crab-related", "Hematodinium-sp", "other"), c(549, 77, 1978))
 
 #look at proportions 
 paste(prop.table(table(dataframe))*100, "%", sep = "")
