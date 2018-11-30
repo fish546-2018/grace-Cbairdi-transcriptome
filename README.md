@@ -7,13 +7,11 @@ Southeast Alaskan Tanner crabs support a $21 million fishery. However, warming t
 
 With temperatures projected to increase, it is thought that the increase in temperature will physiologically stress these naturally cold-water crabs, and also increase the prevalence of Bitter Crab Disease. 
 
-
-
 ## Goals
-This project aims to use bioinformatic tools to identify genes of SE Alaskan Tanner crabs (_Chionoecetes bairdi_) that are involved in immunity and temperature stress response.  
+This project aims to use bioinformatic tools to identify genes of SE Alaskan Tanner crabs (_Chionoecetes bairdi_) that are involved in immunity and temperature stress response in order to provide understanding of basic physiological mechanistic linkages of how climate change may impact the SE Tanner crab stocks. 
 
 # Data and analysis
-RNA sequence data from a pooled _C. bairdi_ hemolymph sample was received from the Northwest Genomics Centeer (NWGC) at the University of Washington. The data came in the form of .fastq files with sequence reads for both the forward and reverse transcripts of the pooled sample.
+RNA sequence data from a pooled _C. bairdi_ hemolymph sample (Day 26, infected and uninfected, cold and ambient) was received from the Northwest Genomics Centeer (NWGC) at the University of Washington. The data came in the form of .fastq files with sequence reads for both the forward and reverse transcripts of the pooled sample. 
 
 The sequence reads were assmebled into a transcriptome using Trinity. The assembled transcriptome was compared to uniprot/swissprot (database of known proteins) and a nucleotide database with taxonomy information using BLAST (Basic Local Alignment Search Tool). The BLAST output from the comparison with the protein database was annotated using GO (gene ontology) terms, which tells us what genes are present, and what their functions are. The BLAST output from the nucleotide taxonomy database was used to identify what was in the sample, and we found that _Hematodinium_ genetic material was present. 
 
@@ -28,7 +26,11 @@ This pie chart was made in [excel](http://owl.fish.washington.edu/scaphapoda/gra
 
 This pie chart was made using the [output](http://gannet.fish.washington.edu/seashell/bu-mox/analyses/1114b/cg-trinity-nt.tab) from the BLAST of the assembled crab transcriptome with a ```nt``` database that includes taxonomy data. The "crab-related" proportion was found by using ```grep("crab", tax$common_name)``` in the column with the animal common names. The "Hematodinium sp." proportion was found in the same way. The "other" category lumps all the other taxonomy groups, since we are interested in the composition of _Hematodinium sp._ and crab-related proteins. (Made using this script: [taxa_breakdown.R](https://github.com/fish546-2018/grace-Cbairdi-transcriptome/blob/master/scripts/taxa_breakdown.R)). 
 
-### Figure 3. WORD CLOUD
+### Figure 3. Species Composition of Crab Taxa
+
+Working on creating this now... script [taxa-crab-breakdown.R](https://github.com/fish546-2018/grace-Cbairdi-transcriptome/blob/master/scripts/taxa-crab-breakdown.R)
+
+### Figure 4. WORD CLOUD
 ![img](https://github.com/fish546-2018/grace-Cbairdi-transcriptome/blob/master/analyses/taxa-wordcloud.png)
 
 ### Table 1. Trinity Assembly Output
@@ -46,16 +48,24 @@ Made using []()
 
 ## Repository structure and Contents
 [analyses](https://github.com/fish546-2018/grace-Cbairdi-transcriptome/tree/master/analyses)
-- output files from R, FastQC
+- output files from R, FastQC, trinity, transrate
+- Pie charts from taxonomy analyses
+- Word cloud from taxonomy analysis
 
 [data](https://github.com/fish546-2018/grace-Cbairdi-transcriptome/tree/master/data)
 - .fastq files from the _C. bairdi_ pooled RNA sample that was library-prepped and sequenced at the NWGC. 
+These files are a small subset of the total data because my laptop downloaded unzipped, severely shortened versions of the RNAseq data. 
+- query.fa
+For practice, I assembled the short .fastq files into a transcriptome and renamed as query.fa for BLAST
+- 1031-cbairdiblast-sprot.tab
+For practice, I used BLAST to compare the short query.fa with uniprot-sprot
 
 [notebooks](https://github.com/fish546-2018/grace-Cbairdi-transcriptome/tree/master/notebooks)
 - Jupyter notebooks used for analyses
 
 [scripts](https://github.com/fish546-2018/grace-Cbairdi-transcriptome/tree/master/scripts)
-- R scripts used for analyses, and .sh scripts for running jobs on Mox
+- R scripts used for analyses
+- .sh scripts for running jobs on Mox
 
 ## Project Timeline (FISH 546 Fall Quarter 2018)
 - Week 4: FastQC files and assemble using Trinity on Mox; set up script for running BLAST once assembly is complete
