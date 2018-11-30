@@ -52,3 +52,10 @@ pie <- legend("topright", legend = c("crab-related", "Hematodinium-sp", "other")
 
 #save plot as image --> in "Plots" window, select "Export"
 
+#####NOTE!!!!
+#some species do not have a common name listed that contains "crab"!!!
+length(grep("bairdi", tax$common_name))
+#27 
+length(grep("Chionoecetes", tax$common_name))
+#40
+
