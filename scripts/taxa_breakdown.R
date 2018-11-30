@@ -30,4 +30,21 @@ length(grep("Hematodinium", tax$common_name))
 uprot <- unique(tax$Trinity_protein)
 uprot
 #2564 unique proteins 
+2564-(77+509)
+
+#make pie chart with percent of crab-related proteins and Hemat-related proteins, and "other"
+#make dataframe for the crab-related, hematodinium-sp related, and other
+dataframe <- data.frame(2564)
+dataframe <- rep( c("crab-related", "Hematodinium-sp", "other"), c(509, 77, 1978))
+
+#look at proportions 
+paste(prop.table(table(dataframe))*100, "%", sep = "")
+#"19.8517940717629%" "3.00312012480499%" "77.1450858034321%"
+
+#create pie
+pie <- pie(table(dataframe), labels = paste(round(prop.table(table(dataframe))*100), "%", sep = ""), col = cm.colors(3), main = "Taxa proportions - n: 2564")
+
+#add legend
+pie <- legend("topright", legend = c("crab-related", "Hematodinium-sp", "other"), fill = cm.colors(3), title = "Taxa Categories", cex = 0.5)
+
 
