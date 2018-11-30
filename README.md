@@ -31,7 +31,13 @@ This pie chart was made using the [output](http://gannet.fish.washington.edu/sea
 ### Figure 3. WORD CLOUD
 
 
-### Figure 4. Trinity Assembly Output
+### Table 1. Trinity Assembly Output
+Number of Contigs: 143,172                Average contig length: 873.95	
+Contig N50: 1539                          Assembled bases: 69687682
+
+Made using []()
+
+
 
 # Next Steps
 - Create RNAseq libraries that are specific to infection-status and temperature regime
