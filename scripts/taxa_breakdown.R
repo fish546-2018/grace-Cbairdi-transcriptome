@@ -45,6 +45,7 @@ paste(prop.table(table(dataframe))*100, "%", sep = "")
 pie <- pie(table(dataframe), labels = paste(round(prop.table(table(dataframe))*100), "%", sep = ""), col = cm.colors(3), main = "Taxa proportions - n: 2564")
 
 #add legend
-pie <- legend("topright", legend = c("crab-related", "Hematodinium-sp", "other"), fill = cm.colors(3), title = "Taxa Categories", cex = 0.5)
+pie <- legend("topright", legend = c("crab-related", "Hematodinium-sp", "other"), fill = cm.colors(3), title = "Taxa Categories", cex = 0.65)
+
 
 
