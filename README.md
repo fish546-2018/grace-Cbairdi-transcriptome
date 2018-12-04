@@ -81,8 +81,3 @@ For practice, I used BLAST to compare the short query.fa with uniprot-sprot
 ## Project Timeline (FISH 546 Fall Quarter 2018)
 - Week 4: FastQC files and assemble using Trinity on Mox; set up script for running BLAST once assembly is complete
 - Week 5: Run BLAST with protein database, and classify according to biological function using GO terms and GO Slim terms 
-- Week 6: Run BLAST with nucleotide taxonomy database
-- Week 7: Run TrinityStats.pl to look at summary statistics on the assembly
-- Week 8: Create figures from BLASTs
-- Week 9: Work on project repository and prepare for final product presentation
-- Week 10: Final touches on project repository --> present to class 
