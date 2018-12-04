@@ -39,7 +39,7 @@ The sequence reads were assmebled into a transcriptome using Trinity. The assemb
 
 ![img](https://github.com/fish546-2018/grace-Cbairdi-transcriptome/blob/master/images/F546-flowchart.png)
 
-# Products
+# Visualizations
 ### Figure 1. Pie Chart of Library 01 GOslim term composition
 ![img](https://github.com/fish546-2018/grace-Cbairdi-transcriptome/blob/master/images/GOslim-pie-lib01.png)
 
