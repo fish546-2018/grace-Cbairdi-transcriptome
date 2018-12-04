@@ -11,7 +11,7 @@ With temperatures projected to increase, it is thought that the increase in temp
 This project aims to use bioinformatic tools to identify genes of SE Alaskan Tanner crabs (_Chionoecetes bairdi_) that are involved in immunity and temperature stress response in order to provide understanding of basic physiological mechanistic linkages of how climate change may impact the SE Tanner crab stocks. 
 
 # Data and analysis
-RNA sequence data from a pooled _C. bairdi_ hemolymph sample (Day 26, infected and uninfected, cold and ambient) was received from the Northwest Genomics Centeer (NWGC) at the University of Washington. The data came in the form of .fastq files with sequence reads for both the forward and reverse transcripts of the pooled sample. 
+RNA sequence data from a pooled _C. bairdi_ hemolymph sample (Day 26, infected and uninfected, cold and ambient) was received from the Northwest Genomics Centeer (NWGC) at the University of Washington. The data came in the form of .fastq files with sequence reads for both the forward and reverse of the pooled sample. 
 
 The sequence reads were assmebled into a transcriptome using Trinity. The assembled transcriptome was compared to uniprot/swissprot (database of known proteins) and a nucleotide database with taxonomy information using BLAST (Basic Local Alignment Search Tool). The BLAST output from the comparison with the protein database was annotated using GO (gene ontology) terms, which tells us what genes are present, and what their functions are. The BLAST output from the nucleotide taxonomy database was used to identify what was in the sample, and we found that _Hematodinium_ genetic material was present. 
 
@@ -67,6 +67,10 @@ For practice, I assembled the short .fastq files into a transcriptome and rename
 - 1031-cbairdiblast-sprot.tab
 For practice, I used BLAST to compare the short query.fa with uniprot-sprot
 
+[images](https://github.com/fish546-2018/grace-Cbairdi-transcriptome/tree/master/images)    
+- figures from analyses (pie charts and word cloud) 
+- flow chart of RNAseq analysis
+
 [notebooks](https://github.com/fish546-2018/grace-Cbairdi-transcriptome/tree/master/notebooks)
 - Jupyter notebooks used for analyses
 
@@ -76,4 +80,9 @@ For practice, I used BLAST to compare the short query.fa with uniprot-sprot
 
 ## Project Timeline (FISH 546 Fall Quarter 2018)
 - Week 4: FastQC files and assemble using Trinity on Mox; set up script for running BLAST once assembly is complete
-- Week 5: Run BLAST, and classify according to biological function using GO terms and GO Slim terms 
+- Week 5: Run BLAST with protein database, and classify according to biological function using GO terms and GO Slim terms 
+- Week 6: Run BLAST with nucleotide taxonomy database
+- Week 7: Run TrinityStats.pl to look at summary statistics on the assembly
+- Week 8: Create figures from BLASTs
+- Week 9: Work on project repository and prepare for final product presentation
+- Week 10: Final touches on project repository --> present to class 
