@@ -1,6 +1,6 @@
 ```images``` contents:
 
-### [FISH546-flowchart.png](https://github.com/fish546-2018/grace-Cbairdi-transcriptome/blob/master/images/FISH546-flowchart.png)
+### [F546-flowchart.png](https://github.com/fish546-2018/grace-Cbairdi-transcriptome/blob/master/images/F546-flowchart.png)
 - Flow chart depicting the methods used to assemble, annotate, and analyze the _C. bairdi_ transcriptome
 
 ### [GOslim-pie-lib01.png](https://github.com/fish546-2018/grace-Cbairdi-transcriptome/blob/master/images/GOslim-pie-lib01.png)
