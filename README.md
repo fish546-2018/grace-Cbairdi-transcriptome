@@ -16,6 +16,10 @@ Crabs were allowed to acclimate to the lab settings and tanks for a little over 
 
 On Day 9, crabs' hemolymph was sampled and stored in RNAlater. Then, the crabs were separated into 9 tanks, such that each tank had 10 infected and 10 uninfected crabs (n =180). The temperature in three tanks were lowered to 4˚C (cold treatment), three were kept at 8˚C (ambient treatment), and three were brought up to 10˚C (warm treatment). 
 
+Cold                       |  Warm                    | Ambient               |
+:-------------------------:|:-------------------------:-----------------------:
+![](https://github.com/fish546-2018/grace-Cbairdi-transcriptome/blob/master/images/experimental-design/cold.jpeg)  |  ![](https://github.com/fish546-2018/grace-Cbairdi-transcriptome/blob/master/images/experimental-design/warm.jpeg)  |  ![](https://github.com/fish546-2018/grace-Cbairdi-transcriptome/blob/master/images/experimental-design/ambient.jpeg)  |  
+
 The crabs' hemolymph was sampled again on Day 12 and Day 26, with Day 26 being the final sampling day after which all crabs had to be sacrificed. 
 
 ## Goals
@@ -35,16 +39,16 @@ The sequence reads were assmebled into a transcriptome using Trinity. The assemb
 This pie chart was made in [excel](http://owl.fish.washington.edu/scaphapoda/grace/Blastquery-GOslim-sep.xlsx) based on the number of proteins counted for each GOslim category with this file: [Blastquery-GOslim-sep.csv](https://github.com/fish546-2018/grace-Cbairdi-transcriptome/blob/master/analyses/Blastquery-GOslim-sep.csv), which is the output file with columns tab delimited [using R](https://github.com/fish546-2018/grace-Cbairdi-transcriptome/blob/master/scripts/plots.R) from this python notebook: [11052018-C_bairdi-blastn.ipynb](https://github.com/fish546-2018/grace-Cbairdi-transcriptome/blob/master/notebooks/11052018-C_bairdi-blastn.ipynb).
 
 ### Figure 2. Pie chart of Library 01 Taxa proportions
-![img](https://github.com/fish546-2018/grace-Cbairdi-transcriptome/blob/master/images/taxa-proportions.png)
+<p align="center">
+  <img width="460" height="400" src="https://github.com/fish546-2018/grace-Cbairdi-transcriptome/blob/master/images/taxa-proportions.png">
+</p>
 
 This pie chart was made using the [output](http://gannet.fish.washington.edu/seashell/bu-mox/analyses/1114b/cg-trinity-nt.tab) from the BLAST of the assembled crab transcriptome with a ```nt``` database that includes taxonomy data. The "crab-related" proportion was found by using ```grep("crab", tax$common_name)``` in the column with the animal common names. The "Hematodinium sp." proportion was found in the same way. The "other" category lumps all the other taxonomy groups, since we are interested in the composition of _Hematodinium sp._ and crab-related proteins. (Made using this script: [taxa_breakdown.R](https://github.com/fish546-2018/grace-Cbairdi-transcriptome/blob/master/scripts/taxa_breakdown.R)). 
 
-### Figure 3. Species Composition of Crab Taxa
-
-Working on creating this now... script [taxa-crab-breakdown.R](https://github.com/fish546-2018/grace-Cbairdi-transcriptome/blob/master/scripts/taxa-crab-breakdown.R)
-
-### Figure 4. WORD CLOUD
-![img](https://github.com/fish546-2018/grace-Cbairdi-transcriptome/blob/master/images/taxa-wordcloud.png)
+### Figure 3. WORD CLOUD
+<p align="center">
+  <img width="460" height="300" src="https://github.com/fish546-2018/grace-Cbairdi-transcriptome/blob/master/images/taxa-wordcloud.png">
+</p>
 
 Add comments
 
