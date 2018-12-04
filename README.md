@@ -15,7 +15,7 @@ RNA sequence data from a pooled _C. bairdi_ hemolymph sample (Day 26, infected a
 
 The sequence reads were assmebled into a transcriptome using Trinity. The assembled transcriptome was compared to uniprot/swissprot (database of known proteins) and a nucleotide database with taxonomy information using BLAST (Basic Local Alignment Search Tool). The BLAST output from the comparison with the protein database was annotated using GO (gene ontology) terms, which tells us what genes are present, and what their functions are. The BLAST output from the nucleotide taxonomy database was used to identify what was in the sample, and we found that _Hematodinium_ genetic material was present. 
 
-![img](https://github.com/fish546-2018/grace-Cbairdi-transcriptome/blob/master/images/FISH546-flowchart.png)
+![img](https://github.com/fish546-2018/grace-Cbairdi-transcriptome/blob/master/images/F546-flowchart.png)
 
 # Products
 ### Figure 1. Pie Chart of Library 01 GOslim term composition
