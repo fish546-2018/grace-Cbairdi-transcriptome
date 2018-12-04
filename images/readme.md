@@ -1,5 +1,8 @@
 ```images``` contents:
 
+### [experimental-design](https://github.com/fish546-2018/grace-Cbairdi-transcriptome/tree/master/images/experimental-design)
+- contains images from the final sampling day (D 26) in Juneau, AK
+
 ### [F546-flowchart.png](https://github.com/fish546-2018/grace-Cbairdi-transcriptome/blob/master/images/F546-flowchart.png)
 - Flow chart depicting the methods used to assemble, annotate, and analyze the _C. bairdi_ transcriptome
 
