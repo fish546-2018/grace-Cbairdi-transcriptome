@@ -24,12 +24,14 @@ ucom <- unique(gsc$common_name)
 
 #find number of common names including crab
 crab <- length(grep("crab", gsc$common_name))
-#509 proteins of common names that include "crab"
-chiono <- length(grep("Chionoecetes", gsc$common_name))
+#509 proteins of scientific names that include "crab"
+chiono <- length(grep("Chionoecetes", gsc$genus_species))
 #40 species have "Chionoecetes" as a common name
 
 #find out how many of species names include "Chionoecetes"
 Chion <- length(grep("Chionoecetes", gsc$genus_species))
 #45 proteins are from Chionoecetes genus
 
-#find number of species that are associated with common names that include "crab"
+#find number of species that are associated with common names that include "crab"... how can i pull out a list of all the different crab species and make a pie chart of their relative proportions?
+
+
