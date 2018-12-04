@@ -14,6 +14,9 @@
 ### [trinity](https://github.com/fish546-2018/grace-Cbairdi-transcriptome/tree/master/analyses/trinity)
 - [11012018-Cbairdi-shasum.txt](https://github.com/fish546-2018/grace-Cbairdi-transcriptome/blob/master/analyses/trinity/11012018-Cbairdi-shasum.txt): checksum of my Trinity.fasta from assembly
 
+### [1031-cbairdiblast-sprot.tab](https://github.com/fish546-2018/grace-Cbairdi-transcriptome/blob/master/analyses/1031-cbairdiblast-sprot.tab)
+- short BLAST output made using the shortened .fastq files as practice
+
 ### [Blastquery-GOslim-sep.csv](https://github.com/fish546-2018/grace-Cbairdi-transcriptome/blob/master/analyses/Blastquery-GOslim-sep.csv)
 - GOslim terms from BLAST with protein database [11052018-C_bairdi-blast.ipynb](https://github.com/fish546-2018/grace-Cbairdi-transcriptome/blob/master/notebooks/11052018-C_bairdi-blast.ipynb)
 
