@@ -33,7 +33,7 @@ This pie chart was made using the [output](http://gannet.fish.washington.edu/sea
 Working on creating this now... script [taxa-crab-breakdown.R](https://github.com/fish546-2018/grace-Cbairdi-transcriptome/blob/master/scripts/taxa-crab-breakdown.R)
 
 ### Figure 4. WORD CLOUD
-![img](https://github.com/fish546-2018/grace-Cbairdi-transcriptome/blob/images/analyses/taxa-wordcloud.png)
+![img](https://github.com/fish546-2018/grace-Cbairdi-transcriptome/blob/master/images/taxa-wordcloud.png)
 
 Add comments
 
