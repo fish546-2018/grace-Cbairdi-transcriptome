@@ -14,13 +14,20 @@ An initical cPCR was performed on all crabs to determine initial infection statu
 
 Crabs were allowed to acclimate to the lab settings and tanks for a little over a week. 
 
-On Day 9, crabs' hemolymph was sampled and stored in RNAlater. Then, the crabs were separated into 9 tanks, such that each tank had 10 infected and 10 uninfected crabs (n =180). The temperature in three tanks were lowered to 4˚C (cold treatment), three were kept at 8˚C (ambient treatment), and three were brought up to 10˚C (warm treatment). 
+On Day 9, crabs' hemolymph was sampled and stored in RNAlater. Then, the crabs were separated into 9 tanks, such that each tank had 10 infected and 10 uninfected crabs (n =180). The temperature in three tanks were lowered to 4˚C (cold treatment), three were kept at 8˚C (ambient treatment), and three were brought up to 10˚C (warm treatment).  
 
-Cold                       |  Warm                    | Ambient               |
-:-------------------------:|:-------------------------:-----------------------:
-![](https://github.com/fish546-2018/grace-Cbairdi-transcriptome/blob/master/images/experimental-design/cold.jpeg)  |  ![](https://github.com/fish546-2018/grace-Cbairdi-transcriptome/blob/master/images/experimental-design/warm.jpeg)  |  ![](https://github.com/fish546-2018/grace-Cbairdi-transcriptome/blob/master/images/experimental-design/ambient.jpeg)  |  
+<p float="left">
+  <img src="https://github.com/fish546-2018/grace-Cbairdi-transcriptome/blob/master/images/experimental-design/cold.jpeg" width="250" />
+  <img src="https://github.com/fish546-2018/grace-Cbairdi-transcriptome/blob/master/images/experimental-design/warm.jpeg" width="250" /> 
+  <img src="https://github.com/fish546-2018/grace-Cbairdi-transcriptome/blob/master/images/experimental-design/ambient.jpeg" width="250" />
+</p>
 
 The crabs' hemolymph was sampled again on Day 12 and Day 26, with Day 26 being the final sampling day after which all crabs had to be sacrificed. 
+
+<p float="left">
+  <img src="https://github.com/fish546-2018/grace-Cbairdi-transcriptome/blob/master/images/experimental-design/crabsintank.jpeg" width="250" />
+  <img src="https://github.com/fish546-2018/grace-Cbairdi-transcriptome/blob/master/images/experimental-design/hemo-sample.jpeg" width="250" /> 
+</p>
 
 ## Goals
 This project aims to use bioinformatic tools to identify genes of SE Alaskan Tanner crabs (_Chionoecetes bairdi_) that are involved in immunity and temperature stress response in order to provide understanding of basic physiological mechanistic linkages of how climate change may impact the SE Tanner crab stocks. 
