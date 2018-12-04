@@ -7,6 +7,17 @@ Southeast Alaskan Tanner crabs support a $21 million fishery. However, warming t
 
 With temperatures projected to increase, it is thought that the increase in temperature will physiologically stress these naturally cold-water crabs, and also increase the prevalence of Bitter Crab Disease. 
 
+## Design
+_C. bairdi_ were collected from Juneau, AK by the ADF&G in the fall of 2017 (Day 0).    
+
+An initical cPCR was performed on all crabs to determine initial infection status. 
+
+Crabs were allowed to acclimate to the lab settings and tanks for a little over a week. 
+
+On Day 9, crabs' hemolymph was sampled and stored in RNAlater. Then, the crabs were separated into 9 tanks, such that each tank had 10 infected and 10 uninfected crabs (n =180). The temperature in three tanks were lowered to 4˚C (cold treatment), three were kept at 8˚C (ambient treatment), and three were brought up to 10˚C (warm treatment). 
+
+The crabs' hemolymph was sampled again on Day 12 and Day 26, with Day 26 being the final sampling day after which all crabs had to be sacrificed. 
+
 ## Goals
 This project aims to use bioinformatic tools to identify genes of SE Alaskan Tanner crabs (_Chionoecetes bairdi_) that are involved in immunity and temperature stress response in order to provide understanding of basic physiological mechanistic linkages of how climate change may impact the SE Tanner crab stocks. 
 
