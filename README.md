@@ -14,12 +14,12 @@ An initical cPCR was performed on all crabs to determine initial infection statu
 
 Crabs were allowed to acclimate to the lab settings and tanks for a little over a week. 
 
-On Day 9, crabs' hemolymph was sampled and stored in RNAlater. Then, the crabs were separated into 9 tanks, such that each tank had 10 infected and 10 uninfected crabs (n =180). The temperature in three tanks were lowered to 4˚C (cold treatment), three were kept at 8˚C (ambient treatment), and three were brought up to 10˚C (warm treatment).  
+On Day 9, crabs' hemolymph was sampled and stored in RNAlater. Then, the crabs were separated into 9 tanks, such that each tank had 10 infected and 10 uninfected crabs (n =180). The temperature in three tanks were lowered to 4˚C (cold treatment), three were brought up to 10˚C (warm treatment), and three were kept at 8˚C (ambient treatment).  
 
 <p float="left">
-  <img src="https://github.com/fish546-2018/grace-Cbairdi-transcriptome/blob/master/images/experimental-design/cold.jpeg" width="250" />
-  <img src="https://github.com/fish546-2018/grace-Cbairdi-transcriptome/blob/master/images/experimental-design/warm.jpeg" width="250" /> 
-  <img src="https://github.com/fish546-2018/grace-Cbairdi-transcriptome/blob/master/images/experimental-design/ambient.jpeg" width="250" />
+  <img src="https://github.com/fish546-2018/grace-Cbairdi-transcriptome/blob/master/images/experimental-design/cold.jpeg" width="275" />
+  <img src="https://github.com/fish546-2018/grace-Cbairdi-transcriptome/blob/master/images/experimental-design/warm.jpeg" width="275" /> 
+  <img src="https://github.com/fish546-2018/grace-Cbairdi-transcriptome/blob/master/images/experimental-design/ambient.jpeg" width="275" />
 </p>
 
 The crabs' hemolymph was sampled again on Day 12 and Day 26, with Day 26 being the final sampling day after which all crabs had to be sacrificed. 
@@ -28,6 +28,12 @@ The crabs' hemolymph was sampled again on Day 12 and Day 26, with Day 26 being t
   <img src="https://github.com/fish546-2018/grace-Cbairdi-transcriptome/blob/master/images/experimental-design/crabsintank.jpeg" width="250" />
   <img src="https://github.com/fish546-2018/grace-Cbairdi-transcriptome/blob/master/images/experimental-design/hemo-sample.jpeg" width="250" /> 
 </p>
+
+Upon receiving the hemolymph stored in RNAlater at -80˚C, I centrifuged the samples and saved the hemolymph pellet as well as the supernatant RNAlater. 
+
+The pelleted hemolymph was processed using Qiagen RNeasy Micro Plus Kit to extract RNA. The extracted samples were run on the Roberts' Lab Qubit 3.0 using Qubit RNA High Sensitivity kit to quantify the RNA in each extracted sample. Additionally, the samples were run on the Bioanalyzer and NanoDop to confirm RNA purity. 
+
+The samples were pooled such that each sample contributed equally to the pooled sample and given to the NWGC to be library prepped and sequenced. 
 
 ## Goals
 This project aims to use bioinformatic tools to identify genes of SE Alaskan Tanner crabs (_Chionoecetes bairdi_) that are involved in immunity and temperature stress response in order to provide understanding of basic physiological mechanistic linkages of how climate change may impact the SE Tanner crab stocks. 
@@ -49,7 +55,7 @@ This pie chart was made in [excel](http://owl.fish.washington.edu/scaphapoda/gra
 
 ### Figure 2. Pie chart of Library 01 Taxa proportions
 <p align="center">
-  <img width="460" height="400" src="https://github.com/fish546-2018/grace-Cbairdi-transcriptome/blob/master/images/taxa-proportions.png">
+  <img width="460" height="425" src="https://github.com/fish546-2018/grace-Cbairdi-transcriptome/blob/master/images/taxa-proportions.png">
 </p>
 
 **Fig. 2** Taxonomy proportions highlighting crab and _Hematodinium_ relative composition. 
